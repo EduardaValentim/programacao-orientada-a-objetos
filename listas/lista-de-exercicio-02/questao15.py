@@ -1,4 +1,4 @@
-valor_hora = float(input('Quantos você ganha por hora? '))
+valor_hora = float(input('Quanto você ganha por hora? '))
 hora_mes = float(input('Quantas horas você trabalha por mês? '))
 
 salario_bruto = valor_hora * hora_mes

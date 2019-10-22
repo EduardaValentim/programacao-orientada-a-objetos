@@ -1,2 +1,2 @@
-numero = float('Digite um número: ')
-print('O número informadofoi {:.2f}'.format(numero))
+numero = float(input('Digite um número: '))
+print('O número informado foi {:.1f}'.format(numero))
