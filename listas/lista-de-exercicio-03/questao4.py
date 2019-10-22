@@ -1,16 +1,9 @@
-def vogal(letra):
-	if letra == 'a' or 'e' or 'i' or 'o' or 'u':
-		return True
-	else:
-		return False
-def consoante(letra):
-	if letra == 'a' or 'e' or 'i'  or 'o' or 'u':
-		return False
-	else:
-		return True
+vogais = ('a', 'e', 'i', 'o', 'u')
+consoantes = ('b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z')
 
-letra = str(input('Qual letra? ')).lower()
+letra = str(input('Qual letra quer verificar? ')).lower()
+
 print('Essa letra é vogal?')
-print(vogal(letra))
+print(letra in vogais)
 print('Essa letra é consoante?')
-print(consoante(letra))
+print(letra in consoantes)
