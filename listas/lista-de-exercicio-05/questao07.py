@@ -27,6 +27,3 @@ print('{:^15}'.format('RELATÓRIO DO DIA'))
 print('Foram pagas {} prestações'.format(len(relatorio) - 1))
 print('O valor total das prestações: R${:.2f}'.format(sum(relatorio)))
 
-"""
-preciso saber a diferença entre ENCERRAR o programa e não GERAR MULTA.
-"""
