@@ -6,12 +6,11 @@ inicio = ''
 jogada = 0
 pontos = 0
 
-print('''Para sair digite 1
-Aperte qualquer tecla para o jogo continuar!''')
+print('Para sair digite 1')
 
 while(inicio != '1'):
 	jogada += 1
-	inicio = input()
+	inicio = input('Aperte qualquer tecla para o jogo continuar! ')
 	if inicio == '1':
 		print('Jogo encerrado')
 	else:
@@ -20,9 +19,11 @@ while(inicio != '1'):
 		if jogada == 1:
 			if valor == 7 or valor == 11:
 				print('Você conseguiu um natural, PARABÉNS!!!')
+				print(' ')
 				pass
 			elif valor == 2 or valor == 3 or valor == 12:
-				print('Craps, não desanime tente outra vez!')
+				print('Craps! Não desanime tente outra vez.')
+				print(' ')
 				pass
 			else:
 				pontos = valor
@@ -30,7 +31,9 @@ while(inicio != '1'):
 		else:
 			if valor == 7:
 				print('Você não conseguiu seu ponto a tempo e isso te leva ao THE END!')
+				print(' ')
 				pass
 			elif pontos == valor:
 				print('Você conseguiu, PARABÉNS!!!')
+				print(' ')
 				pass
