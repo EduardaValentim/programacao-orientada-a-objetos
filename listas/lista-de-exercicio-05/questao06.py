@@ -1,13 +1,10 @@
 def manha_noite(hora_str):
 	separacao = hora_str.split(':')
 	separar = int(separacao[0])
-	if separar == 00:
+	if separar >= 12:
 		registro = 'P'
 		return registro
-	elif separar >= 12:
-		registro = 'P'
-		return registro
-	elif 0 < separar < 12:
+	elif 0 <= separar < 12:
 		registro = 'A'
 		return registro
 
