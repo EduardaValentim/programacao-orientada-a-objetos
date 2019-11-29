@@ -7,7 +7,7 @@ inicio = 1
 with open('saida1.txt', 'w') as saida:
     while inicio <= tamanho_da_lista:
         inicio += 1
-        nome = nomes[random.randint(0, 20)]
-        sobrenome = sobrenomes[random.randint(0, 20)]
+        nome = nomes[random.randint(0, 19)]
+        sobrenome = sobrenomes[random.randint(0, 19)]
         idade = random.randint(1, 101)
         print(nome, sobrenome, idade, file=saida)
