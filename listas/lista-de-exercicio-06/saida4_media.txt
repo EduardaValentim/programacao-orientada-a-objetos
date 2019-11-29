@@ -1,40 +1,20 @@
-Debora Parent
-4.8
-Iara Farias
-6.8
-Clarice Farias
-4.8
-Debora Peixoto
-3.9
-Joao Fontes
-7.7
-Vanessa Pacheco
-5.8
-Fernanda Belli
-8.4
-Josefa Oliveira
-5.8
-Brenda Marques
-4.6
-Clarice Fontes
-2.8
-Clara Pacheco
-4.7
-Edson Nogueira
-4.3
-Debora Farias
-6.7
-Tiago Alencar
-7.1
-Debora Nascimento
-3.9
-Marcos Lemos
-5.8
-Marcelo Penna
-5.2
-Joao Silva
-5.8
-Edson Alencar
-3.2
-Marcelo Facundes
-7.9
+Debora Parent, 4.8
+Iara Farias, 6.8
+Clarice Farias, 4.8
+Debora Peixoto, 3.9
+Joao Fontes, 7.7
+Vanessa Pacheco, 5.8
+Fernanda Belli, 8.4
+Josefa Oliveira, 5.8
+Brenda Marques, 4.6
+Clarice Fontes, 2.8
+Clara Pacheco, 4.7
+Edson Nogueira, 4.3
+Debora Farias, 6.7
+Tiago Alencar, 7.1
+Debora Nascimento, 3.9
+Marcos Lemos, 5.8
+Marcelo Penna, 5.2
+Joao Silva, 5.8
+Edson Alencar, 3.2
+Marcelo Facundes, 7.9
