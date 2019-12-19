@@ -21,6 +21,6 @@ class Caneta:
         
 ca1 = Caneta('azul', 'bic', 0.7, 50)
 ca1.retornar_marca()
-ca1.escrever('coisa complicada')
+ca1.escrever('escrever bastante')
 ca1.encher_caneta()
 ca1.imprimir_caracteristicas()
