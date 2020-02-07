@@ -13,7 +13,7 @@ class Pokemon:
 
     def subir_nivel(self):
         self.nivel += 1
-        self.poder_luta += 1
+        self.poder_luta += 2
         return self.nivel and self.poder_luta
 
     def mostrar_poder_luta(self):
@@ -26,11 +26,11 @@ class Pokemon:
         self.ataques.append(novo_ataque)
         return self.ataques
 
+    def caracteristicas(self):
+        return print('NOME: {} \nNÍVEL: {}\nTIPO: {} \nDESCRIÇÃO: {} \nATAQUES: {} \nPODER DE LUTA: {} \nBRILHANTE: {}'.format(self.nome, self.nivel, self.tipo, self.descricao, self.ataques, self.poder_luta, self.brilhante is 'Sim'))
+
 
 p1 = Pokemon('Pikachu', 'Elétrico', 'Condutor de energia elétrica e pode manipular energia elétrica lançando rajadas de trovões e relâmpagos', [], 1, 1, 'Sim')
-p1.mostrar_ataques()
 p1.subir_nivel()
-p1.mostrar_poder_luta()
-p1.e_brilhante()
 p1.adicionar_ataque('Trovao')
-p1.mostrar_ataques()
+p1.caracteristicas()
