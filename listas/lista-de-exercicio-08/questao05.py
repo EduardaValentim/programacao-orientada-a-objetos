@@ -1,3 +1,4 @@
+#retirando uma referencia de commit
 class Pokemon:
     def __init__(self, nome, tipo, descricao, ataques, nivel, poder_luta, brilhante):
         self.nome = nome
