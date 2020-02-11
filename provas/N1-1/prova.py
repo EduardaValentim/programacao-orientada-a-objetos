@@ -1,8 +1,8 @@
 def alterar_bytes(numero):
-    resultado = numero / 1000000
+    resultado = numero / 1024 / 1024
     return resultado
 def porcentagem(mega):
-    resultado = 100 * mega / 3528.30
+    resultado = 100 * mega / 2581.56
     return resultado
 
 soma = 0
