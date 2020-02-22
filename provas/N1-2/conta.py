@@ -53,7 +53,7 @@ class Historico:
 			print('-', t)
 
 
-"""				instanciando				"""
+"""				INSTANCIANDO				"""
 cliente1 = Cliente('Dudah', 'Valentim', '123.456.765-98')
 cliente2 = Cliente('Cris', 'Januário', '987.654.321-10')
 conta1 = Conta('123-7', cliente1, 3000)
