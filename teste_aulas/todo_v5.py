@@ -23,9 +23,6 @@ class Projeto:
         kwargs['vencimento'] = vencimento
         funcao_escolhida(descricao_tarefa, **kwargs)
 
-    #def add(self, descricao, vencimento=None):
-        #self.tarefas.append(Tarefa(descricao, vencimento))
-
     def pendentes(self):
         return [tarefa for tarefa in self.tarefas if not tarefa.feito]
 
