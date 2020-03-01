@@ -8,10 +8,12 @@ class Conta:
 		self.historico = Historico()
 
 	def deposita(self, valor):
+		'Deposita valor da conta'
 		self.saldo += valor
 		self.historico.transacoes.append('Deposito de {}'.format(valor))
 
 	def saca(self, valor):
+		'Saca valor da conta'
 		if self.saldo < valor:
 			return False
 		else:
@@ -20,10 +22,12 @@ class Conta:
 			return True 
 
 	def extrato(self):
+		'Retorna informações da conta e o saldo'
 		print('Número: {} \nCliente: {}'.format(self.numero, self.cliente))
 		self.historico.transacoes.append('Tirou extrato \n\t\tSaldo de {}'.format(self.saldo))
 
 	def transfere_para(self, destino, valor):
+		'Transfere o valor para a conta x'
 		retirou = self.saca(valor)
 		if retirou == False:
 			return False
@@ -39,7 +43,7 @@ class Cliente:
 		self.cpf = cpf
 
 	def __str__(self):
-		return '{} {} \nCPF: {}'.format(self.nome, self.sobrenome, self.cpf)
+		return 'Nome: {} {} \nCPF: {}'.format(self.nome, self.sobrenome, self.cpf)
 
 class Historico:
 	def __init__(self):
@@ -47,6 +51,7 @@ class Historico:
 		self.transacoes = []
 
 	def imprimir(self):
+		'Retorna o histórico da conta'
 		print('Data de abertura: {}'.format(self.data_abertura))
 		print('Transações: ')
 		for t in self.transacoes:
